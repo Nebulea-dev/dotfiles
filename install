@@ -6,7 +6,7 @@ do
     # If not this file
     if [ "$0" != "$file" ]; then
         # Replace ./ with .
-        name=`echo $file | sed 's/^\.\//\./'`
+        name=`echo $file | sed 's/^\.\///'`
         link=~/$name
 
         # Create symbolic link if it doesn't exist
