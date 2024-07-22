@@ -112,3 +112,5 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen apply
 
 export PATH=/home/mamathieu/nvim-linux64/bin/:$PATH
+
+source ~/.env
