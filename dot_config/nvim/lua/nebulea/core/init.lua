@@ -5,7 +5,9 @@ vim.g.mapleader = " "
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
 
+require("nebulea.core.options")
+
 vim.schedule(function()
-  require "nebulea.core.keymaps"
+  require("nebulea.core.keymaps")
 end)
 
