@@ -1,12 +1,11 @@
 return {
  "neovim/nvim-lspconfig",
+ dependencies = {
+   "williamboman/mason-lspconfig.nvim",
+ },
   opts = {
     diagnostics = {
       virtual_text = false,
     },
   },
-  config = function()
-    require("nvchad.configs.lspconfig").defaults()
-    -- require "configs.lspconfig"
-  end,
 }
