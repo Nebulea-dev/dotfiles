@@ -1,24 +1,32 @@
 # Dotfiles
 
-Personal dotfiles repository.
+Personal dotfiles repository. Uses the absolutely fabulous https://www.chezmoi.io/
 
 # Usage
 
-* Fork the repository
-* Run `./install` 
+## Set up a new machine with a single command
+`sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply Nebulea-dev`
 
-# Other
 
-If you use this for your own dotfiles, you might want to add `./update`
-to your .bashrc to automatically pull the repository and install the 
-dotfiles when you open up a terminal
+## Complete installation of chezmoi (recommended)
+* Installation of chezmoi : `sh -c "$(curl -fsLS get.chezmoi.io)"`
+* Add `~/bin/` to `$PATH` if not already done.
+* Init dotfiles : `chezmoi init https://github.com/Nebulea-dev/dotfiles.git`
+* See differences between current dotfiles and github dotfiles : `chezmoi diff`
+* Apply changes : `chezmoi apply -v`
 
-# Packages
+## Modify dotfiles
+* Go to dotfiles folder : `chezmoi cd`
+* Modify files as your heart desires
+* Commit and push your changes
 
+## Add/Update dotfiles
+* Add a file or folder to the chezmoi dotfiles folder : `chezmoi add <file>`
+
+# Packages to install (TODO : install with chezmoi run_once_)
+
+- ZSH + Oh-My-ZSH + Antigen
+- Starship + Hack Nerd font
 - Tmux
-- Starship
-- Nvim + Nvchad
-- bat 
-- zsh + oh-my-zsh + antigen
-- Hack nerd font
-- exa
+- Nvim
+- Bat + Exa
