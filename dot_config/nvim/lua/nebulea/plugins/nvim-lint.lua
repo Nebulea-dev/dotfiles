@@ -17,7 +17,7 @@ return {
 
         -- You can call `try_lint` with a linter name or a list of names to always
         -- run specific linters, independent of the `linters_by_ft` configuration
-        lint.try_lint({"write_good", "codespell", "woke"})
+        lint.try_lint({"write_good", "codespell"})
       end,
     })
     -- local lint = require("lint")
