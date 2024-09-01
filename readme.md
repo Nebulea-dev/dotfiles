@@ -25,8 +25,10 @@ Personal dotfiles repository. Uses the absolutely fabulous https://www.chezmoi.i
 
 # Packages to install (TODO : install with chezmoi run_once_)
 
-- ZSH + Oh-My-ZSH + Antigen
-- Starship + Hack Nerd font
-- Tmux
-- Nvim
-- Bat + Exa
+- ZSH : `sudo apt install zsh`
+- Oh-My-ZSH : `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- Starship : `curl -sS https://starship.rs/install.sh | sh`
+- Hack Nerd font : `wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip` then idk it depends, good luck
+- Tmux : `sudo apt install tmux`
+- Nvim : `wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz` then extract in `~/bin`
+- Thefuck : `python3 -m venv ~/bin/venv && ~/bin/venv/bin/pip3 install thefuck && ~/bin/venv/bin/pip3 install tldr`
