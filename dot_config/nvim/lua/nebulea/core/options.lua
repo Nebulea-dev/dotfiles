@@ -10,4 +10,4 @@ vim.opt.shiftwidth = 4
 vim.opt.softtabstop = 4
 
 vim.wo.number = true
-
+vim.g.codeium_disable_bindings = 1
