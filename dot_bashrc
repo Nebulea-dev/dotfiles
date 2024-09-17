@@ -112,22 +112,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:~/Desktop/dev/cs
-export PATH=$PATH:~/Desktop/dev/cs/build/x64_release
-eval -- "$(/usr/local/bin/starship init bash --print-full-init)"
-
-source ~/Desktop/dev/cs/tools/shell/bashrc
-export DENO_INSTALL="/home/mamathieu/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
-
-# pnpm
-export PNPM_HOME="/home/mamathieu/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
 if [ -z "${NOZSH}" ] && [ $TERM = "xterm" -o $TERM = "xterm-256color" -o $TERM = "screen" ] && type zsh &> /dev/null
 then
     export SHELL=$(which zsh)
