@@ -19,12 +19,12 @@ spec "user.nvimtree"
 spec "user.lualine"
 spec "user.navic"
 spec "user.breadcrumbs"
-spec "user.harpoon"
 spec "user.neotest"
 spec "user.autopairs"
-spec "user.neogit"
-spec "user.alpha"
+spec "user.neogit"           -- Git integration in nvim
+spec "user.alpha"            -- Used for nvim start page
 spec "user.project"
 spec "user.indentline"
 spec "user.toggleterm"
+spec "user.bufferline"       -- Used to show the open buffers
 require "user.lazy"
