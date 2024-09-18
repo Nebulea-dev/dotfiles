@@ -13,6 +13,8 @@ function M.config()
     { "<leader>t", group = "Test" },
     { "<leader>T", group = "Treesitter" },
     { "<leader>a", group = "Tab" },
+    { "<Tab>", "<cmd>bnext<CR>", desc = "Move to next buffer" },
+    { "<S-Tab>", "<cmd>bprev<CR>", desc = "Move to prev buffer" },
     { "<leader>;", "<cmd>tabnew | terminal<CR>", desc = "Term" },
     { "<leader>aN", "<cmd>tabnew %<cr>", desc = "New Tab" },
     { "<leader>ah", "<cmd>-tabmove<cr>", desc = "Move Left" },
