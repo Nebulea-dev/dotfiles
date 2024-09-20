@@ -52,3 +52,11 @@ vim.cmd [[set iskeyword+=-]]
 vim.g.netrw_banner = 0
 vim.g.netrw_mouse = 2
 
+-- Disable virtual_text since it's redundant due to lsp_lines.
+vim.diagnostic.config({
+  virtual_text = false,
+})
+-- Disable virtual_text since it's redundant due to lsp_lines.
+vim.diagnostic.config({
+  virtual_text = false,
+})

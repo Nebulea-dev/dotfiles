@@ -1,31 +1,16 @@
-local M = {
-  "williamboman/mason-lspconfig.nvim",
-  dependencies = {
-    "williamboman/mason.nvim",
-  },
-}
-
-
-function M.config()
-  local servers = {
-    "lua_ls",
-    "cssls",
-    "html",
-    "ts_ls",
-    "pyright",
-    "bashls",
-    "jsonls",
-  }
-
-  require("mason").setup {
-    ui = {
-      border = "rounded",
+return {
+  "williamboman/mason.nvim",
+  opts = {
+    ensure_installed = {
+      "lua-language-server", 
+      "stylua",
+      "html-lsp", 
+      "css-lsp" , 
+      "prettier"
     },
-  }
-
-  require("mason-lspconfig").setup {
-    ensure_installed = servers,
-  }
-end
-
-return M
+  },
+  config = function()
+    local mason = require("mason")
+    mason.setup()
+  end,
+}

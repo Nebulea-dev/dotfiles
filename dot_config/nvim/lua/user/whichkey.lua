@@ -1,5 +1,8 @@
 local M = {
   "folke/which-key.nvim",
+  dependencies = {
+    "echasnovski/mini.icons"
+  }
 }
 
 function M.config()
@@ -15,6 +18,7 @@ function M.config()
     { "<leader>a", group = "Tab" },
     { "<Tab>", "<cmd>bnext<CR>", desc = "Move to next buffer" },
     { "<S-Tab>", "<cmd>bprev<CR>", desc = "Move to prev buffer" },
+    { "<leader>x", "<cmd>bp | sp | bn | bd<CR>", desc = "Close current buffer" },
     { "<leader>;", "<cmd>tabnew | terminal<CR>", desc = "Term" },
     { "<leader>aN", "<cmd>tabnew %<cr>", desc = "New Tab" },
     { "<leader>ah", "<cmd>-tabmove<cr>", desc = "Move Left" },

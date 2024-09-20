@@ -60,10 +60,12 @@ function M.config()
   local icons = require "user.icons"
 
   local servers = {
+    "clangd",
+    "rust-analyzer",
+    "ts_ls",
     "lua_ls",
     "cssls",
     "html",
-    "ts_ls",
     "eslint",
     "pyright",
     "bashls",
