@@ -31,8 +31,8 @@ spec "user.fidget"           -- Add progress bars to LSP
 -- spec "user.ufo"              -- Fold parts of the code. Needs nvim 0.10
 spec "user.codeium"          -- Codeium completion 
 spec "user.noice"            -- Notifcations appearing on top right
--- spec "user.mason"            -- Install LSP & stuff
--- spec "user.mason-nvim-lint"  -- LSP linter
--- spec "user.mason-lspconfig"  -- LSP config
-spec "user.lspconfig"        -- LSP configuration
+spec "user.mason"            -- Install LSP & stuff
+spec "user.mason-nvim-lint"  -- LSP linter
+spec "user.mason-lspconfig"  -- LSP config
+-- spec "user.lspconfig"        -- LSP configuration
 require "user.lazy"
