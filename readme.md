@@ -5,7 +5,7 @@ Personal dotfiles repository. Uses the absolutely fabulous https://www.chezmoi.i
 # Usage
 
 ## Set up dotfiles a new machine with a single command
-`sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply Nebulea-dev` then install packages (see [packages to install](#Packages to install))
+`sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply Nebulea-dev` then install packages (see [packages to install](#packages-to-install))
 
 
 ## Complete installation of chezmoi (recommended)
