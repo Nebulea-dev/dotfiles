@@ -35,4 +35,5 @@ spec "user.mason"            -- Install LSP & stuff
 spec "user.mason-nvim-lint"  -- LSP linter
 spec "user.mason-lspconfig"  -- LSP config
 -- spec "user.lspconfig"        -- LSP configuration
+spec "user.onedark"          -- Onedark theme 
 require "user.lazy"
