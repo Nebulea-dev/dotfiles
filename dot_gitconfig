@@ -1,6 +1,9 @@
-[user]
-  name = Nebulea
-  email = github@nebulea.dev
+[includeIf "gitdir:~/dev/ensimag/"]
+  path = .gitconfig-ensimag
+
+[includeIf "gitdir:~/dev/perso/"]
+  path = .gitconfig-perso
+
 [push]
   default = simple
 [pull]
