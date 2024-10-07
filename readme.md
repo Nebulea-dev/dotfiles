@@ -40,3 +40,7 @@ To install them manually :
 - Hack Nerd font : `wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip` then idk it depends, good luck
 - Nvim : `wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz` then extract in `~/bin`
 - Thefuck : `python3 -m venv ~/bin/venv && ~/bin/venv/bin/pip3 install thefuck && ~/bin/venv/bin/pip3 install tldr`
+
+# Useful commands
+
+* Set node and npm version to latest by default : `nvm alias default node`
