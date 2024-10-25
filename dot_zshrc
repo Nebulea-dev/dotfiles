@@ -120,10 +120,14 @@ export NVM_DIR="$HOME/.nvm"
 export PATH=~/bin/:$PATH
 export PATH=$PATH:~/bin/venv/bin/
 export PATH=~/bin/nvim-linux64/bin/:$PATH
+export PATH=/usr/lib/jvm/temurin-8-jdk-amd64/bin/:$PATH
+export PATH=~/dev/ensimag/Tests/TP2/clif-server-3.0.4-SNAPSHOT/bin/:$PATH
 
 # ----------------- Aliases -----------------
 
 alias ls='eza -lha'
+alias godot='~/Godot.x86_64'
 
 # ----------------- thefuck -----------------
 eval $(thefuck --alias)
+

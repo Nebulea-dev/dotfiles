@@ -60,3 +60,6 @@ vim.diagnostic.config({
 vim.diagnostic.config({
   virtual_text = false,
 })
+
+-- Disable codeium default bindings (LIKE TAB ???)
+vim.g.codeium_disable_bindings = 1

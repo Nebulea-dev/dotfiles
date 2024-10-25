@@ -21,7 +21,8 @@ local M = {
           "pyright",
 
           -- Web
-          "tsserver",
+          "volar",
+          "ts_ls",
           "html",
           "cssls",
 
@@ -29,7 +30,6 @@ local M = {
           "marksman",
 
           -- JSON & YAML
-          "jsonc",
           "jsonls",
           "taplo",
           "yamlls",
