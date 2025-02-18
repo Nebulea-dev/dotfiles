@@ -1,1 +1,2 @@
 export STARSHIP_CONFIG=~/.starship.toml
+export NIX_CONFIG="experimental-features = nix-command flakes"
