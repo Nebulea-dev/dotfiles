@@ -29,11 +29,11 @@ spec "user.colorizer"        -- Add RBG colors to hex codes
 spec "user.fidget"           -- Add progress bars to LSP
 -- spec "user.navbuddy"         -- Quickly move to functions
 -- spec "user.ufo"              -- Fold parts of the code. Needs nvim 0.10
-spec "user.codeium"          -- Codeium completion 
 spec "user.noice"            -- Notifcations appearing on top right
 spec "user.mason"            -- Install LSP & stuff
 spec "user.mason-nvim-lint"  -- LSP linter
 spec "user.mason-lspconfig"  -- LSP config
 -- spec "user.lspconfig"        -- LSP configuration
 spec "user.onedark"          -- Onedark theme 
+spec "user.tiny-inline-diagnostic" -- Error messages
 require "user.lazy"

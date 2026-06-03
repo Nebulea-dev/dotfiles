@@ -38,7 +38,7 @@ To install them manually :
 - Oh-My-ZSH : `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 - Starship : `curl -sS https://starship.rs/install.sh | sh`
 - Hack Nerd font : `wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip` then idk it depends, good luck
-- Nvim : `wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz` then extract in `~/bin`
+- Nvim : `wget https://github.com/neovim/neovim/releases/download/v0.12.2/nvim-linux-x86_64.tar.gz` then extract in `~/bin`
 - Thefuck : `python3 -m venv ~/bin/venv && ~/bin/venv/bin/pip3 install thefuck && ~/bin/venv/bin/pip3 install tldr`
 - antigen : `curl -L git.io/antigen > ~/antigen.zsh`
 

@@ -23,10 +23,12 @@ antigen apply
 
 export PATH=~/bin/:$PATH
 export PATH=~/bin/.venv/bin/:$PATH
+export PATH=~/bin/nvim-linux-x86_64/bin/:$PATH
 
 # ----------------- Aliases -----------------
 
 alias ls='eza -lha'
+alias rgf'rg --files | rg'
 
 # ----------------- UV ----------------------
 
